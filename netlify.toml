@@ -14,3 +14,15 @@
   from = "/404"
   to = "/404.html"
   status = 404
+  
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NPM_CONFIG_PRODUCTION = "false"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
