@@ -1,0 +1,19 @@
+:root {
+  font-family: 'Pretendard', 'Noto Sans KR', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #2b2340;
+  background: linear-gradient(180deg, #f7f2ff 0%, #efe7ff 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}

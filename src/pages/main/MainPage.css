@@ -1,0 +1,138 @@
+.main-page {
+  min-height: 100vh;
+  padding: 48px 20px 80px;
+}
+
+.hero-box {
+  max-width: 780px;
+  margin: 0 auto 20px;
+  padding: 32px 32px 40px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(124, 58, 237, 0.08);
+  border-radius: 28px;
+  box-shadow: 0 20px 50px rgba(109, 40, 217, 0.08);
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #efe7ff;
+  color: #6d28d9;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-box h1 {
+  margin: 0 0 16px;
+  font-size: 64px;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: #2b2340;
+}
+
+.hero-box p {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #6b6284;
+}
+
+.app-card {
+  max-width: 780px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+}
+
+.section {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(124, 58, 237, 0.08);
+  border-radius: 28px;
+  box-shadow: 0 20px 50px rgba(109, 40, 217, 0.08);
+  padding: 28px;
+}
+
+.section h2 {
+  margin: 0 0 12px;
+  font-size: 30px;
+  color: #2b2340;
+}
+
+.hint {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #8a80a6;
+}
+
+.primary-btn {
+  width: 100%;
+  height: 54px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.primary-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.action-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.secondary-btn {
+  flex: 1;
+  height: 50px;
+  border-radius: 14px;
+  border: 1px solid #ddd6fe;
+  background: white;
+  color: #5b21b6;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.secondary-btn:hover {
+  background: #f8f5ff;
+}
+
+@media (max-width: 768px) {
+  .main-page {
+    padding: 24px 16px 48px;
+  }
+
+  .hero-box {
+    padding: 24px;
+  }
+
+  .hero-box h1 {
+    font-size: 44px;
+  }
+
+  .hero-box p {
+    font-size: 18px;
+  }
+
+  .section {
+    padding: 20px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+
+  .action-row {
+    flex-direction: column;
+  }
+}
